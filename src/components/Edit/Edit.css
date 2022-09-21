@@ -1,0 +1,40 @@
+.edit-container{
+    width: 40vw;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+}
+
+.edit-heading{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #5AB9EA;
+    margin-bottom: 15px;
+
+}
+
+.edit-span{
+    font-weight: 600;
+}
+
+@media (max-width: 576px){
+    .edit-container{
+        width: 60vw;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 768px){
+    .edit-container{
+        width: 60vw;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px){
+    .rowbook{
+        width: 40vw;
+    }
+}

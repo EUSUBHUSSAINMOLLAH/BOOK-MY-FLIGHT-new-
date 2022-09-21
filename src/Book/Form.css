@@ -1,0 +1,13 @@
+.travDetcont{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 4rem solid white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.travDetcont p{
+    font-size: 1.8rem;
+    font-weight: 600;
+}

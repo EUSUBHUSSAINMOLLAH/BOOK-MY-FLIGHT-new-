@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+.body{
+    background-color: rgb(243, 243, 243);
+    font-size: 1.5rem; 
+    min-height: 100vh;
+}
+section{
+    background-color: rgb(243, 243, 243);
+    height: max-content;
+}
+.section-1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.section-3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+.editContainer{
+    background-color: white;
+    height: 40vh;
+}
+
+.Edit-btn{
+    margin-left: 1.5rem;
+    width: max-content;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 1.8rem;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.Edit{
+    border: 1px solid #84CEEB;
+    background: linear-gradient(to bottom right, #5AB9EA, #84CEEB, #C1C8E4);
+}
+
+.Edit:focus, .Edit:hover{
+    color: white;
+}
+.Submit{
+    border: 1px solid #05386B;
+    background: none;
+    color: #05386B;
+}
+
+.Submit:hover{
+    color: white;
+    border: 2px solid #379683;
+    background: linear-gradient(to bottom right, #379683, #6CDB95, #8EE4AF);
+}
+.searchbtnpos{
+    
+    position: absolute;
+    bottom: 4rem;
+}
+.searchbtn{
+    z-index: 120;
+}
+.searchFlightbtn{
+    font-size: 2.5rem;
+    background: #fe6b03;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 50px;
+    border: none;
+    /* position: absolute; */
+    transform: translateY(-3rem);
+    color: white;
+}
+
+.searchFlightbtn:hover{
+    font-size: 2.6rem;
+}
+
+.visible{
+    z-index: 100;
+}

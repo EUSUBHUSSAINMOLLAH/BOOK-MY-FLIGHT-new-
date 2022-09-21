@@ -1,0 +1,22 @@
+.navbar{
+    background-color: white;
+    padding: 3rem 5rem;
+    font-size: 2rem;
+    color: rgb(68, 68, 68);
+    display: flex;
+    justify-content: space-between; 
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.nav-icon{
+    color: #5680E9;
+    margin-right: 10px;
+}
+
+.navbarComment{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2.5rem;
+}
+
